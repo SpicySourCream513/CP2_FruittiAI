@@ -1,0 +1,28 @@
+# Ignore Python virtual environments
+venv/
+fruittyai-backend/venv/
+fresh_env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Ignore big binaries and compiled libs
+*.pyd
+*.dll
+*.so
+*.exe
+*.lib
+*.zip
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+*.keras
+*.h5
+*.pt
+node_modules

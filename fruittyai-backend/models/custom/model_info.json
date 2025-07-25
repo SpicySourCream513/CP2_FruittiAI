@@ -1,0 +1,34 @@
+{
+  "ripeness_labels": [
+    "unripe",
+    "ripe",
+    "overripe"
+  ],
+  "defect_labels": [
+    "none",
+    "minor",
+    "moderate",
+    "major"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "batch_size": 32,
+  "class_weights": {
+    "ripeness": {
+      "0": 6.312324929971989,
+      "1": 0.5072023407607472,
+      "2": 1.1494516704922213
+    },
+    "defect": {
+      "0": 0.43137442572741197,
+      "1": 1.440856777493606,
+      "2": 25.607954545454547,
+      "3": 1.054022450888681
+    }
+  },
+  "training_samples": 4507,
+  "validation_samples": 1201,
+  "test_samples": 628
+}
